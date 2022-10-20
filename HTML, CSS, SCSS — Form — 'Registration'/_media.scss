@@ -1,0 +1,46 @@
+
+
+@media only screen and (max-width: 600px) {
+	form {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		// width: 800px;
+		padding: 25px 20px;
+		border-radius: 7px;
+		margin: 12px;
+	}
+	.form__fieldset__wrapper {
+		// display: flex;
+		// gap: 20px;
+	}
+	.container {
+		// flex-basis: 100%;
+		display: block;
+		span {
+			display: block;
+			margin-top: 15px;
+			margin-bottom: 8px;
+			font-size: 1.2rem;
+			font-weight: 500;
+		}
+		input {
+			display: block;
+			width: 100%;
+			border: 1px solid darkgrey;
+			background-color: white;
+			font-size: 1.4rem;
+			border-radius: 5px;
+			padding: 12px 15px 12px 15px;
+			box-sizing: border-box;
+			&::placeholder {
+				color: grey;
+			}
+			&:focus {
+				outline: none;
+				padding: 12px 15px 11px 15px;
+				border-bottom: 2px solid #4071ED;
+			}
+		}
+	}
+}

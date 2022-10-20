@@ -1,0 +1,12 @@
+
+@mixin flex-center($justify) {
+	display: flex;
+	justify-content: $justify;
+	align-items: center;
+}
+
+$green: #64c29e;
+$greyBg: #f7f7f7;
+$greyText: #848789;
+$h1: #353738;
+$dark: #282f35;
